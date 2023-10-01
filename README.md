@@ -57,7 +57,11 @@ Steps:
   We used the if condition (pid == 0 ) to insure that we are in the child process this line helped me to avoid executing excelp in the parent process, which will terminate the server and for sure we don't want that.
 
 Refrences:
+
 1- https://www.geeksforgeeks.org/fork-system-call/
+
 2- https://www.qnx.com/developers/docs/6.5.0SP1.update/com.qnx.doc.neutrino_lib_ref/e/execlp.html
+
 3- https://www.geeksforgeeks.org/socket-programming-cc/
+
 4- https://marketsplash.com/tutorials/cpp/cplusplus-scoket/
