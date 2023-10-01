@@ -20,14 +20,14 @@ Steps:
   ![Client](https://i.postimg.cc/13Yyt1QM/Screenshot-20231001-194145-Tcp-Udp-Server-Client.jpg).
 
   
-  3- Write The IP and port corresponding to your PC and choose the TCP mode.
+  4- Write The IP and port corresponding to your PC and choose the TCP mode.
 
   
   ![Configuration](https://i.postimg.cc/gjMTDd4T/Screenshot-20231001-194149-Tcp-Udp-Server-Client.jpg).
 
   
   
-  3- Open the created client and write commands to be sent or you can configure specific buttons as follow:
+  5- Open the created client and write commands to be sent or you can configure specific buttons as follow:
 
   - Click on the "+" button:
   
@@ -39,7 +39,7 @@ Steps:
   ![Buttons](https://i.postimg.cc/c4SRDPPD/Screenshot-20231001-194233-Tcp-Udp-Server-Client.jpg).
   
 
-  3- Use an appropriate mechanism to execute received commnads.
+  6- Use an appropriate mechanism to execute received commnads.
   - In my code I have used fork() and excelp().
     
   - fork()   : The Fork system call is used for creating a new process in Linux, and Unix systems, which is called the child process, which runs concurrently with the process that makes the fork() call (parent process). After a new child process is created, both processes will execute the next instruction following the fork() system call.
